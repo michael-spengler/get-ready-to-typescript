@@ -1,0 +1,17 @@
+title: get-ready-to-typescript
+tagline: A brand new course on Learning Lab
+description: Get Ready To TypeScript
+template:
+  repo: get-ready-to-typescript-template
+  name: get-ready-to-typescript
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
