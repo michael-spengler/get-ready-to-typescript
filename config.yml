@@ -1,12 +1,12 @@
-title: get-ready-to-typescript
-tagline: A brand new course on Learning Lab
+title: Get Ready To TypeScript
+tagline: TypeScript
 description: Get Ready To TypeScript
 template:
   repo: get-ready-to-typescript-template
-  name: get-ready-to-typescript
+  name: get-ready-to-typescript-exercise
 before:
   - type: createIssue
-    title: Welcome!
+    title: Welcome to the show!
     body: new-issue.md
 steps:
   - title: First step
