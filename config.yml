@@ -9,9 +9,20 @@ before:
     title: Welcome to the show!
     body: new-issue.md
 steps:
-  - title: First step
-    description: The first step in your course
-    event: issues.assigned
+  - title: Install Git
+    description: Learn How To Install Git
+    event: issues.closed
     link: '{{ repoUrl }}'
     actions:
-      - type: closeIssue
+      - type: createIssue
+        title: Enjoy Installing Git
+        body: install-git.md
+steps:
+  - title: Install NodeJS
+    description: Learn How To Install NodeJS
+    event: issues.closed
+    link: '{{ repoUrl }}'
+    actions:
+      - type: createIssue
+        title: Enjoy Installing NodeJS
+        body: install-nodejs.md
